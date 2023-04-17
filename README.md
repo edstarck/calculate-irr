@@ -1,4 +1,6 @@
-### Калькулятор для irr.ru
+### Калькулятор недвижимости
+
+[DEMO] (https://edstarck.github.io/calculate-irr/public/index.html)
 
 1. npm install
 2. dev: npm run dev
