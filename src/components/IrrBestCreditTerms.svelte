@@ -10,7 +10,6 @@
   // model
   let banks = [];
   let isLoading = false;
-  let isError = false;
 
   // computed props
   $: topCreditOffers = banks
@@ -18,6 +17,7 @@
     .sort((a, b) => a.rate - b.rate);
 
   $: isBanks = banks.length > 0;
+  $: isError = !isLoading && banks.length <= 0;
   // hooks
   onMount(fetchBanks);
 
@@ -33,7 +33,6 @@
           resolve(response);
         })
         .catch(() => {
-          isError = true;
           throw new Error("Oooopss...Something wrong.");
         });
     });
@@ -58,7 +57,7 @@
     {#if isBanks}
       <IrrSummaryBanks {banks} />
     {/if}
-    {#if isError || !isBanks}
+    {#if isError}
       <IrrAlert />
     {/if}
   </div>
