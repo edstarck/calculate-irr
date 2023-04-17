@@ -1,0 +1,158 @@
+{
+  "references": {
+    "product": [
+      {
+        "id": 1,
+        "code": "STANDARD",
+        "title": "Стандартная",
+        "sort": 1
+      },
+      {
+        "id": 2,
+        "code": "FAMILY",
+        "title": "Семейная ипотека",
+        "sort": 2
+      },
+      {
+        "id": 3,
+        "code": "MILITARY",
+        "title": "Военная ипотека",
+        "sort": 3
+      },
+      {
+        "id": 4,
+        "code": "STATE",
+        "title": "Госпрограмма 6.5%",
+        "sort": 4
+      },
+      {
+        "id": 5,
+        "code": "COUNTRY",
+        "title": "Сельская",
+        "sort": 5
+      },
+      {
+        "id": 6,
+        "code": "FAR_EAST",
+        "title": "Дальневосточная",
+        "sort": 6
+      }
+    ],
+    "citizenship": [
+      {
+        "id": 1,
+        "code": "643",
+        "title": "Россия",
+        "sort": 1
+      },
+      {
+        "id": 2,
+        "code": "112",
+        "title": "Беларусь",
+        "sort": 2
+      },
+      {
+        "id": 3,
+        "code": "804",
+        "title": "Украина",
+        "sort": 3
+      },
+      {
+        "id": 4,
+        "code": "398",
+        "title": "Казахстан",
+        "sort": 4
+      },
+      {
+        "id": 99,
+        "code": "OTHER",
+        "title": "Иное",
+        "sort": 5
+      }
+    ],
+    "registration": [
+      {
+        "id": 1,
+        "code": "LIFETIME",
+        "title": "Постоянная",
+        "sort": 1
+      },
+      {
+        "id": 2,
+        "code": "TEMP",
+        "title": "Временная",
+        "sort": 2
+      }
+    ],
+    "employment": [
+      {
+        "id": 1,
+        "code": "BUSINESS",
+        "title": "Собственник",
+        "sort": 1
+      },
+      {
+        "id": 2,
+        "code": "HIRING",
+        "title": "Найм",
+        "sort": 2
+      },
+      {
+        "id": 3,
+        "code": "INTERPRENEUR",
+        "title": "ИП",
+        "sort": 3
+      },
+      {
+        "id": 4,
+        "code": "RETIRED",
+        "title": "Пенсионер",
+        "sort": 4
+      },
+      {
+        "id": 5,
+        "code": "MILITARY",
+        "title": "Военнослужащий",
+        "sort": 5
+      },
+      {
+        "id": 6,
+        "code": "FREELANCE",
+        "title": "Самозянятый",
+        "sort": 6
+      }
+    ],
+    "incomeProof": [
+      {
+        "id": 1,
+        "code": "NDFL",
+        "title": "2-НДФЛ",
+        "sort": 1
+      },
+      {
+        "id": 3,
+        "code": "PFR",
+        "title": "Выписка ПФР",
+        "sort": 2
+      },
+      {
+        "id": 4,
+        "code": "BANK_FORM",
+        "title": "Справка по форме банка",
+        "sort": 3
+      },
+      {
+        "id": 5,
+        "code": "TAX",
+        "title": "Налоговая / бух. отчетность",
+        "sort": 4
+      },
+      {
+        "id": 10,
+        "code": "NONE",
+        "title": "Без подтверждения дохода",
+        "sort": 5
+      }
+    ]
+  }
+}
